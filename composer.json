@@ -1,5 +1,5 @@
 {
-    "name": "ivory/serializer-bundle",
+    "name": "iznaur/serializer-bundle",
     "type": "symfony-bundle",
     "description": "Serializer for PHP 7.0+ supporting JSON, XML, YAML & CSV",
     "keywords": [ "serializer" ],
@@ -19,18 +19,18 @@
     "require": {
         "php": "^7.0 || ^8.0",
         "ivory/serializer": "^1.0",
-        "symfony/framework-bundle": "^3.0 || ^4.0 || ^5.0",
+        "symfony/framework-bundle": "^5.3",
         "symfony/cache": "^3.1 || ^4.0 || ^5.0"
     },
     "require-dev": {
         "doctrine/annotations": "^1.0",
         "friendsofphp/php-cs-fixer": "^2.0",
-        "friendsofsymfony/rest-bundle": "^2.0",
+        "friendsofsymfony/rest-bundle": "^3.0",
         "phpunit/phpunit": "^5.4 || ^6.5 || ^9.5",
-        "symfony/form": "^3.0 || ^4.0 || ^5.0",
-        "symfony/phpunit-bridge": "^3.0 || ^4.0 || ^5.0",
-        "symfony/translation": "^3.0 || ^4.0 || ^5.0",
-        "symfony/yaml": "^3.0 || ^4.0 || ^5.0"
+        "symfony/form": "^5.3",
+        "symfony/phpunit-bridge": "^5.3",
+        "symfony/translation": "^5.3",
+        "symfony/yaml": "^5.3"
     },
     "replace": {
         "egeloen/serializer-bundle": "^1.0.0"
